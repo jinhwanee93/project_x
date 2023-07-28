@@ -1,0 +1,58 @@
+.button-container {
+    border: 1px solid white;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    font-family: "Neue Montreal Regular", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    line-height: 30px;
+    padding: 0 12px;
+    position: relative;
+    text-transform: uppercase;
+    transform: translate(0px, 0%);
+
+    &.reverse {
+        background: white;
+        color: black;
+    }
+}
+
+.button-content--hidden {
+    opacity: 0;
+}
+
+.marquee-track {
+    border-radius: 24px;
+    height: 30px;
+    left: 0;
+    overflow: hidden;
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.marquee-inner {
+    animation: marquee 15s linear infinite;
+    display: flex;
+    position: relative;
+    transform: translate3d(calc(-25% + 1rem), 0, 0);
+    width: fit-content;
+
+    span {
+        padding: 0 0.5rem;
+        white-space: nowrap;
+    }
+}
+
+@keyframes marquee {
+    from {
+        transform: translateX(0%);
+    }
+
+    to {
+        transform: translateX(-50%);
+    }
+}

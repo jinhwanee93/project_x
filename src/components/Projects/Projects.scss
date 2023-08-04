@@ -1,0 +1,31 @@
+.project-text {
+    font-size: 60px;
+    font-family: "Neue Montreal Light";
+
+    span {
+        font-size: 14px;
+        font-weight: 600;
+        font-family: "Neue Montreal Regular";
+    }
+
+    a {
+        &:hover {
+            color: lightgrey;
+        }
+    }
+
+    &:hover {
+        color: lightgrey;
+    }
+}
+
+.project-list {
+    font-family: "Neue Montreal Regular";
+    margin-left: 90px;
+
+    a {
+        &:hover {
+            color: grey;
+        }
+    }
+}

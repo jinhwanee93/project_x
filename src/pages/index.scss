@@ -4,9 +4,9 @@
 *,
 *:before,
 *:after {
-    padding:0;
-    margin:0;
     box-sizing:border-box;
+    margin:0;
+    padding:0;
 }
 
 body {
@@ -21,8 +21,8 @@ textarea {
 
 button,
 input[type="submit"] {
-    outline: none;
     border: none;
+    outline: none;
 }
 
 button:hover,
@@ -33,10 +33,61 @@ input[type="submit"] {
 
 li,
 a {
+    color: white;
     text-decoration: none;
 }
 
-.container {
+p {
+    font-family: 'Roboto Mono', monospace;      
+}
+
+li {
+    list-style: none;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.main-container {
+    width: 100%;
+}
+
+.header-wrapper {
+    width: auto;
+}
+
+.section-container {
     max-width: 1140px;
     padding: 0 28px;
+    width: 100%;
+    position: relative;
+    margin: auto;
+    margin-bottom: 120px;
+}
+
+.section-full {
+    height: 90vh;
+}
+
+.number-badge {
+    font-family: "Tungsten-Bold";
+    font-size: 80px;
+}
+
+.subheadline {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 52px;
+    margin: 0 0 80px 60px;
+    text-transform: uppercase;
+
+    span {
+        font-size: 14px;
+    }
+}
+
+.display-grid--50 {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
 }

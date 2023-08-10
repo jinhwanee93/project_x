@@ -18,14 +18,17 @@ const Contact: React.FC<ContactProps> = ({
                 <div>
                     <span className="number-badge">03.</span>
                     <h2 className="subheadline">↳ Contact <span>(Chat with me)</span></h2>
-                    
-                    <p>Let's talk!</p>
-                    <p>↳ +1 (661)-600-6196</p>
-                    <p>↳ github.com/jinhwanee93</p>
-                    <p>↳ linkedin.com/in/alexandrekim93</p>
-                    <p>↳ ig:@xandrekim</p>
 
-                    <p>SEND ME AN EMAIL</p>
+                    <div className="contact-info">
+                        <p className="contact-label">Let's talk!</p>
+                        <div className="contact-list">
+                            <p>↳ +1 (661)-600-6196</p>
+                            <p>↳ github.com/jinhwanee93</p>
+                            <p>↳ linkedin.com/in/alexandrekim93</p>
+                            <p>↳ ig:@xandrekim</p>
+                        </div>
+                    </div>
+
                     <ContactButton/>
                 </div>
             </div>

@@ -7,8 +7,7 @@ const Hero: React.FC = () => {
         <section className="hero-container">
             <p className="welcome-badge">↳ Welcome to my domain.</p>
             <div className="hero-content">
-                <p className="hero-subcopy">Hello there, <br/> I am a frontend web developer based in Los Angeles California.</p>
-                <ContactButton/>
+                <p className="hero-subcopy">Hello there, I am a frontend web developer based in Los Angeles California.</p>
             </div>
         </section>
     )

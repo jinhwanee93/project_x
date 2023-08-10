@@ -3,6 +3,11 @@
     letter-spacing: 0.1px;
 }
 
+.info-about {
+    font-size: 28px;
+    z-index: 1;
+}
+
 .profile-picture {
     background-image: url("../../images/DSCF4075.jpg");
     background-repeat: no-repeat;
@@ -11,6 +16,7 @@
     background-size: cover;
     position: relative;
     transform: rotate(25deg);
+    margin-left: 140px;
 
     .caption {
         font-family: 'Roboto Mono', monospace;      

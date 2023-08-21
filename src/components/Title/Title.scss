@@ -1,15 +1,19 @@
 .title-container {
+    background: white;
+    color: black;
     display: flex;
-    position: absolute;
+    filter: blur(1px);
     margin: 28px;
+    position: absolute;
+    z-index: 99;
 }
 
 .first-name {
     font-family: 'Roboto Mono', monospace;
     font-size: 52px;
-    text-transform: uppercase;
-    line-height: 1;
     letter-spacing: .05px;
+    line-height: 1;
+    text-transform: uppercase;
 }
 
 .subcopy {

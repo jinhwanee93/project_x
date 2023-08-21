@@ -6,9 +6,7 @@ const Hero: React.FC = () => {
     return(
         <section className="hero-container">
             <p className="welcome-badge">↳ Welcome to my domain.</p>
-            <div className="hero-content">
-                <p className="hero-subcopy">Hello there, I am a frontend web developer based in Los Angeles California.</p>
-            </div>
+            <p className="welcome-subcopy">Software Engineer based in Los Angeles, California.</p>
         </section>
     )
 }

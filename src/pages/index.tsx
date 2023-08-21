@@ -7,6 +7,7 @@ import Hero from "../components/Hero/Hero";
 import Info from "../components/Info/Info";
 import Contact from "../components/Contact/Contact";
 import Projects from "../components/Projects/Projects";
+import Tech from "../components/Tech/Tech";
 import "./index.scss";
 
 const IndexPage: React.FC<PageProps> = () => {
@@ -17,6 +18,7 @@ const IndexPage: React.FC<PageProps> = () => {
         <Hero/>
         <Info id="info"/>
         <Projects id="projects"/>
+        <Tech/>
         <Contact id="contact"/>
         <Footer/>
       </div>

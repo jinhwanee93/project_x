@@ -15,7 +15,6 @@
     width: 320px;
     background-size: cover;
     position: relative;
-    transform: rotate(25deg);
     margin-left: 140px;
 
     .caption {
@@ -30,6 +29,5 @@
         position: absolute;
         bottom: -10px;
         left: -10px;
-        transform: rotate(-25deg);
     }
 }
